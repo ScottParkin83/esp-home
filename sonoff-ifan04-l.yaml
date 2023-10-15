@@ -2,7 +2,7 @@ substitutions:
   name: sonoff-ifan04-l
   friendly_name: Sonoff iFan04-L
 external_components:
-  - source: github://cpyarger/custom_components@master
+  - source: github://ScottParkin83/esp-home@master
 esphome:
   name: ${name}
   comment: Sonoff iFan04-L
@@ -25,7 +25,7 @@ uart:
   rx_pin: GPIO03
   baud_rate: 9600
 dashboard_import:
-  package_import_url: github://cpyarger/esphome-templates/sonoff-ifan04-l.yaml@main
+  package_import_url: github://ScottParkin83/esp-home/sonoff-ifan04-l.yaml@main
 
 wifi:
   # Set up a wifi access point
